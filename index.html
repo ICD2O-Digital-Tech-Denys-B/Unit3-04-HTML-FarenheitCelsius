@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>FtoC</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
   </head>
   <body>
-    <p>Paragraph</p>
+    <h1>Fahrenheit to Celsius</h1>
+    <p>Enter Fahrenheit</p>
+    <input type="text" placeholder="°F" id="F">
+    <button onclick="calcCelsius()">Calculate</button>
+    <br>
+    <p>Answer:</p>
+    <p id="answer"></p>
   </body>
 </html>
